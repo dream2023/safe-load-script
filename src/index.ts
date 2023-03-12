@@ -3,7 +3,7 @@ import { copyProperties, getNewProperties, getObjectFirstValue, isNumber, strToU
 let windowProperties: Record<string, true>;
 
 /**
- * 创建或服用 iframe
+ * 创建或复用 iframe
  * @param name iframe 名称，应全局唯一
  */
 function createIframe(name: string) {
